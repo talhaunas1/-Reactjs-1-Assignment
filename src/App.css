@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+/* .loogo
+{
+    
+    
+
+} */
+.logoimage
+{
+    margin-top: 35%;
+    /* margin-left: 50%; */
+    
+    /* font-size: 18px; */
+}
+.mainhead
+{
+    margin-top: 100px;
+}
+.homeimage1
+{
+    width: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+.main .cont3{
+    width: 35%;
+    margin-left: 120px;
+    /* margin-right: 100px; */
+    background: #FFFFFF;
+box-shadow: 0px 20px 20px -7px rgba(56, 51, 51, 0.11);
+border-radius: 6px;
+height: 80px;
+width: 440px;
+border: 1px solid rgb(203, 203, 218);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cont3
+{
+    margin-top: -180px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.min_div1 .min_div
+{
+    margin-top: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.min_div1 .city_info
+{
+    
+    margin-left: 85px;
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .min_div1 .btn_min
+{
+    
+    margin-left: 25px;
+    margin-top:15px;
 }
