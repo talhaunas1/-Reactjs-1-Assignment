@@ -1,24 +1,33 @@
-h2{
+.main_head h2{
+    
+    width: 585px;
+    height: 258px;
+   
     font-family: Inter;
-font-size: 70px;
-font-style: normal;
-font-weight: 600;
-line-height: 86px;
-letter-spacing: 0em;
-text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 86px;
+    /* or 123% */
+    
+    
+    color: #0F2B4A;
+}
 
-}
-p{
-    font-family: Roboto;
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.31px;
-text-align: left;
-width: 500px;
-}
-/* .para
+.main_head p
 {
-    width: 500px;
-} */
+
+width: 489px;
+height: 60px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #576B81;
+}

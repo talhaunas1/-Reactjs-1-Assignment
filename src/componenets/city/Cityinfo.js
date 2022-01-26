@@ -1,4 +1,5 @@
 import React from 'react';
+import './Cityinfo.css'
 
 const Cityinfo = () => {
     return (

@@ -3,7 +3,7 @@ import './Homemindiv.css'
 
 const Homemindiv = () => {
     return (
-        <div className='flexlagao'>
+        <div>
 
             <div className='addresss'>
             <h4>Address</h4>

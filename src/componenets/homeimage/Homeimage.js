@@ -4,8 +4,8 @@ import'./Homeimage.css'
 
 const Homeimage = () => {
     return (
-        <div >
-             <img className='image1' src={home} alt="Logo" />
+        <div className='home_image1' >
+             <img  src={home} alt="Logo" />
         </div>
     );
 };

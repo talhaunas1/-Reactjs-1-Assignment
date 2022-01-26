@@ -3,7 +3,7 @@ import './Butoonblue.css'
 
 const Buttonblue = () => {
     return (
-        <div>
+        <div className='btnblue'>
             <button type="button" class="btn btn-primary">Primary</button>
         </div>
     );
