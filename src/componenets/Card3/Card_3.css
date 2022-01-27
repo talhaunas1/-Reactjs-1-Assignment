@@ -1,0 +1,49 @@
+.card003
+{
+    width: 372px;
+height: 382px;
+background-color: rgb(84, 89, 99);
+}
+
+.card003 img
+{
+    width: 87px;
+height: 97px;
+}
+
+
+.card003 .card003p
+{
+   
+width: 243px;
+height: 31px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+
+color: #0F2B4A;
+}
+.card003 .card003p2
+{
+    
+width: 259px;
+height: 78px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #576B81;
+
+}

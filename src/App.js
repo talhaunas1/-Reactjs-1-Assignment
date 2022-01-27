@@ -11,10 +11,12 @@ import Homemindiv from './componenets/Address/Homemindiv';
 import Buttonblue from './componenets/Buttonblue/Buttonblue';
 import Cityinfo from './componenets/city/Cityinfo';
 import Adobe from './componenets/Imgrow/Adobe';
-import Aabuilder from './componenets/Imgrow/Aabuilder';
-import Capital from './componenets/Imgrow/Capital';
-import Rosewood from './componenets/Imgrow/Rosewood';
-import Ironwood from './componenets/Imgrow/Ironwood';
+import Section_2 from './componenets/Section2/Section_2';
+import Card_1 from './componenets/Card1/Card_1';
+import Card_2 from './componenets/Card2/Card_2';
+import Card_3 from './componenets/Card3/Card_3';
+
+
 
 function App() {
   return (
@@ -49,22 +51,38 @@ function App() {
     </div>
     </div>
 
-    <div className='container imgs_colmn'>
-    <div className='row imgs_row'>
+    <div className='container imgs_cool'>
+    <div className='row imgs_roow'>
 
-    {/* <div className='col-2' >  </div> */}
-    <div className=' imzx col-2 imgx' > <Adobe/> </div>
-    <div className='col-2 imgx'> <Aabuilder/> </div>
-    <div className='col-2 imgx'> <Capital/> </div>
-    <div className='col-2 imgx'> <Rosewood/> </div>
-    <div className='col-2 imgx'> <Ironwood/></div>
+    <div className='col-12'> <Adobe/> </div>
+
+    </div>
 
 
     </div>
 
 
+    <div className='container section2_cont'>
+  <div className='row '>
 
+    <div className='col-2'></div>
+    <div className='col-8'> <Section_2/> </div>
+    <div className='col-2'></div>
+  </div>
     </div>
+
+
+
+    <div className='container'>
+      <div className='row'>
+
+      <div className='col-4'> <Card_1/> </div>
+      <div className='col-4'> <Card_2/> </div>
+      <div className='col-4'> <Card_3/> </div>
+
+      </div>
+    </div>
+   
     
     </div>
   );
