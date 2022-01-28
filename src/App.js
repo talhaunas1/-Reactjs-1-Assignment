@@ -73,12 +73,12 @@ function App() {
 
 
 
-    <div className='container'>
-      <div className='row'>
+    <div className='container card_conatinr'>
+      <div className='row card_roaw'>
 
-      <div className='col-4'> <Card_1/> </div>
-      <div className='col-4'> <Card_2/> </div>
-      <div className='col-4'> <Card_3/> </div>
+      <div className='col-4 card1_set'> <Card_1/> </div>
+      <div className='col-4 card2_set'> <Card_2/> </div>
+      <div className='col-4 card3_set'> <Card_3/> </div>
 
       </div>
     </div>
