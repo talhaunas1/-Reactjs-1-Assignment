@@ -59,7 +59,7 @@ margin-top: 108px;
 {
     
     margin-left: 25px;
-    margin-top:10px;
+    /* margin-top:10px; */
 }
 .imgs_cool .imgs_roow
 {
@@ -73,4 +73,11 @@ margin-top: 108px;
 .card_conatinr
 {
     margin-top: 8%;
+}
+
+
+
+.under_cardx
+{
+    margin-top: 10%;
 }

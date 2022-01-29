@@ -15,6 +15,7 @@ import Section_2 from './componenets/Section2/Section_2';
 import Card_1 from './componenets/Card1/Card_1';
 import Card_2 from './componenets/Card2/Card_2';
 import Card_3 from './componenets/Card3/Card_3';
+import Udcard from './componenets/undercards/Udcard';
 
 
 
@@ -46,7 +47,7 @@ function App() {
 
       <div className=' min_div col-3 adres_info'> <Homemindiv/> </div>
       <div className=' min_div col-3 city_info'> <Cityinfo/>  </div>
-      <div className=' min_div col-1 btn_min'> <Buttonblue/> </div>
+      <div className=' min_div col-1 btn_min'> <Buttonblue width="92px" height="42px" title="Primary"/> </div>
 
     </div>
     </div>
@@ -80,6 +81,16 @@ function App() {
       <div className='col-4 card2_set'> <Card_2/> </div>
       <div className='col-4 card3_set'> <Card_3/> </div>
 
+      </div>
+    </div>
+
+
+    <div className='container under_cardx'>
+      <div className='row'>
+        <div className='col-5'> <Udcard/> </div>
+        <div className='col-3'></div>
+        <div className='col-2'> <Buttonblue width="180px" height="40px" background="white" color="black" title="Property Type"/> </div>
+        <div className='col-2'> <Buttonblue width="164px" height="40px"  title="See All Property"/> </div>
       </div>
     </div>
    

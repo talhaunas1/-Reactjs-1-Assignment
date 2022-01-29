@@ -1,10 +1,12 @@
 import React from 'react';
 import './Butoonblue.css'
 
-const Buttonblue = () => {
+const Buttonblue = (props) => {
     return (
         <div className='btnblue'>
-            <button type="button" class="btn btn-primary">Primary</button>
+
+            <button type="button" class="btn btn-primary" style={{color:props.color,width:props.width ,background:props.background} }>{props.title}</button>
+        
         </div>
     );
 };
