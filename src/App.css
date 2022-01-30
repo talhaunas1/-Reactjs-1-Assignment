@@ -81,3 +81,37 @@ margin-top: 108px;
 {
     margin-top: 10%;
 }
+
+.card_part2 .card_4_5
+{
+    margin-left: 2%;
+}
+
+.card_part2 .card_6_7
+{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.card_part2 .inner_set1,.inner_set3
+{
+    margin-left: -4%;
+}
+
+.card_part2 .inner_set2,.inner_set4
+{
+    margin-left: 4%;
+}
+
+/* .card_part2 .inner_set3
+{
+    margin-left: -4%
+} */
+.arow_containr
+{
+    margin-top: 5%;
+}
+.arroww{
+    margin-left: -4%;
+    /* margin-top: 40%; */
+}
