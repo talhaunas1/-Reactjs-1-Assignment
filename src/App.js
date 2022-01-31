@@ -16,11 +16,12 @@ import Card_1 from './componenets/Card1/Card_1';
 import Card_2 from './componenets/Card2/Card_2';
 import Card_3 from './componenets/Card3/Card_3';
 import Udcard from './componenets/undercards/Udcard';
-import Card4 from './componenets/Card4/Card4'
+import Card4 from './componenets/Card4/Card4';
 import Card5 from './componenets/Card5/Card5';
 import Card6 from './componenets/Card6/Card6';
 import Card7 from './componenets/Card7/Card7';
-import arrow from './assets/images/arrow.png'
+import arrow from './assets/images/arrow.png';
+import Testimonials from './componenets/testimonilas/Testimonials';
 
 
 function App() {
@@ -122,6 +123,20 @@ function App() {
         </div>
       </div>
     </div>
+
+
+
+    <div className='container'>
+      <div className='row'>
+        
+      <div className='col-12'></div>
+
+        </div> 
+
+
+
+      </div>
+
    
     
     </div>
