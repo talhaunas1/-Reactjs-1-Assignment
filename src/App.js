@@ -21,7 +21,10 @@ import Card5 from './componenets/Card5/Card5';
 import Card6 from './componenets/Card6/Card6';
 import Card7 from './componenets/Card7/Card7';
 import arrow from './assets/images/arrow.png';
-import Testimonials from './componenets/testimonilas/Testimonials';
+import Testimonials from './componenets/Testominila/Testimonials';
+// import BlueDiv from './componenets/bluediv/BlueDiv';
+import Blueediv from './componenets/Blueediv/Blueediv';
+
 
 
 function App() {
@@ -100,7 +103,7 @@ function App() {
       </div>
     </div>
 
-    {/* width= "84px"height="30px" */}
+    
 
 
     <div className='container card_part2'>
@@ -126,16 +129,29 @@ function App() {
 
 
 
-    <div className='container'>
-      <div className='row'>
-        
-      <div className='col-12'></div>
-
-        </div> 
+      <div className='test_div'> 
+      <Testimonials/>
+       </div>
 
 
+      <div> <Blueediv/> </div>
 
-      </div>
+
+      {/* <div className='container'>
+        <div className='row'>
+
+          <div className='col-12'>
+          <BlueDiv/>
+        </div>
+
+      </div> 
+         
+        </div>
+         */}
+
+
+
+      
 
    
     
