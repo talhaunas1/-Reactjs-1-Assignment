@@ -4,6 +4,7 @@
     height: 360px;
 
     background: #0F2A47;
+    
 }
 
 .blue_heading
@@ -92,9 +93,12 @@ border-radius: 6px;
     /* display: inline; */
 
     width: 68px;
-height: 56px;
+    height: 56px;
+    margin-left: -68px;
 
-margin-top: 10px;
-margin-left: -65px;
+}
 
+.same_clas
+{
+    margin-top: 12%;
 }

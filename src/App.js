@@ -134,7 +134,7 @@ function App() {
        </div>
 
 
-      <div> <Blueediv/> </div>
+      <div className='blue_div_app'> <Blueediv/> </div>
 
 
       {/* <div className='container'>
