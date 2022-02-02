@@ -24,6 +24,7 @@ import arrow from './assets/images/arrow.png';
 import Testimonials from './componenets/Testominila/Testimonials';
 // import BlueDiv from './componenets/bluediv/BlueDiv';
 import Blueediv from './componenets/Blueediv/Blueediv';
+import LastDiv from './componenets/LastDiv/LastDiv';
 
 
 
@@ -137,18 +138,9 @@ function App() {
       <div className='blue_div_app'> <Blueediv/> </div>
 
 
-      {/* <div className='container'>
-        <div className='row'>
-
-          <div className='col-12'>
-          <BlueDiv/>
-        </div>
-
-      </div> 
-         
-        </div>
-         */}
-
+      <div className='last_div'> <LastDiv/> </div>
+      <div className='last_logo_set'><Logo/></div>
+      <p className='copycat'> © 2021 Besnik. All Rights Reserved</p>
 
 
       

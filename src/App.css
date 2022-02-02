@@ -127,3 +127,33 @@ margin-top: 108px;
 {
     margin-top: 6%;
 }
+
+.last_div
+{
+    margin-top: 10%;
+}
+.last_logo_set
+{
+    margin-top: -25%;
+    margin-left: 10%;
+}
+.copycat
+{
+  
+width: 245px;
+height: 19px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #A2AFBD;
+margin-left: auto;
+margin-right: 8%;
+margin-top: -2%;
+}
